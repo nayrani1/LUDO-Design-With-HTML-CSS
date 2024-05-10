@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.box-row {
+    height: 300px;
+    width: 750px;
+}
+
+/* box */
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+
+.border-red {
+    border: 50px solid red;
+
+}
+
+.border-green {
+    border: 50px solid green;
+
+}
+
+.border-yellow {
+    border: 50px solid #F1C40F;
+
+}
+
+.border-blue {
+    border: 50px solid blue;
+
+}
+
+.circle {
+    
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 25px;
+    float: left;
+}
+.border-green .circle
+{
+    background-color:#5fb509 ;
+}
+.border-red .circle
+{
+    background-color :#dc3589 ;
+}
+.border-blue .circle
+{
+    background-color :#178dcc ;
+}
+.border-yellow .circle
+{
+    background-color: yellow;
+}
+.v-lad {
+    width: 150px;
+    height: 300px;
+    float: left;
+}
+.v-lad-row
+{
+    height: 50px;
+    width: 150px;
+    
+
+}
+.cell
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.red
+{
+    background: red;
+}
+.green
+{
+    background: green;
+}
+.blue
+{
+    background: blue
+}
+.yellow
+{
+    background: #F1C40F;
+}
+
+.middle-row
+{
+    height:150px;
+    width: 750px;
+    
+}
+.h-lad
+{
+    width: 300px;
+    height: 150px;
+    float: left;
+    
+}
+.h-lad-row
+{
+    height: 50px;
+    width: 300px;
+    
+   
+}
+.ludo-home
+{
+   width: 0;
+   height: 0;
+   float: left;
+   border-top: 75px solid green;
+   border-right: 75px solid #F1C40F;
+   border-bottom: 75px solid blue;
+   border-left: 75px solid red;
+   
+}
+.star{
+    font-size: 35px;
+    color: white;
+}
